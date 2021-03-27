@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html" ; charset="utf-8">
+    <title>WebXi Template</title>
+    <link rel="stylesheet" type="text/css" href="css/webxi.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+
+<body>
+    <div id="vertical">
+        <div id="image-cont">
+            <div id="align-img-cont">
+                <a href="https://github.com/mnemocron/webxi"> <img id="image" src="img/logo.png"> </a>
+            </div>
+        </div>
+        <div id="space"></div>
+        <div id="text-cont">
+            <div id="align-txt-cont">
+                <table>
+                    <tbody>
+                        <tr class="btn">
+                            <th>Manufacturer</th>
+                            <td><strong><a href="#">ACME&trade;Corp.</a></strong></td>
+                        </tr>
+                        <tr class="btn">
+                            <th>Model</th>
+                            <td>Cool Black Box</td>
+                        </tr>
+                        <tr class="btn">
+                            <th>S/N</th>
+                            <td>42-100.000.000-A2021</td>
+                        </tr>
+                        <tr class="btn">
+                            <th>Firmware</th>
+                            <td>0.0.03b21v3</td>
+                        </tr>
+                        <tr class="btn">
+                            <th>Network</th>
+                            <td>192.168.1.100</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form class="btn" method="get" action="/app.cgi">
+                    <table >
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label class="switch" for="ck1">
+                                    <input type="checkbox" id="ck1" />
+                                    <div class="slider round"></div>
+                                  </label>
+                                </td>
+                                <td>LXI Discovery</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="switch" for="ck2">
+                                    <input type="checkbox" id="ck2" />
+                                    <div class="slider round"></div>
+                                  </label>
+                                </td>
+                                <td>Frontpanel LED</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <input value="OK" type="submit">
+                </form>
+                <p>&copy;2021 ACME Inc. | Design: <a href="https://github.com/mnemocron/webxi">WebXi</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
